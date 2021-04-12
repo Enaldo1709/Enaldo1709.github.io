@@ -796,13 +796,10 @@ main div[id="final"] div[id="final-i"] button:hover {
     font-size: 36px;
     line-height: 42px;
   }
-  main div[id="final"] div[id="final-i"] a{
+  main div[id="final"] div[id="final-i"] button {
     width: 90%;
     height: 48px;
     margin: 36px 5% calc((0.05255 * 100vw) + 110px) 5%;
-  }
-  main div[id="final"] div[id="final-i"] button {
-    width: 100%;
   }
 }
 
@@ -839,13 +836,10 @@ main div[id="final"] div[id="final-i"] button:hover {
 }
 
 @media (min-width: 430px) {
-  main div[id="final"] div[id="final-i"] a {
-    margin: 36px 0 calc((0.1051 * 100vw) + 10.5vw) 0;
-    height: 48px;
-  }
-  main div[id="final"] div[id="final-i"] a button {
+  main div[id="final"] div[id="final-i"] button {
     width: 345px;
-    
+    margin: 36px 0 calc((0.1051 * 100vw) + 10.5vw) 0;
+    height: 48px;    
   }
 }
 
