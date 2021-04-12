@@ -840,19 +840,18 @@ main div[id="final"] div[id="final-i"] button:hover {
 
 @media (min-width: 430px) {
   main div[id="final"] div[id="final-i"] a {
-    width: 24%;
     margin: 36px 0 calc((0.1051 * 100vw) + 10.5vw) 0;
     height: 48px;
   }
   main div[id="final"] div[id="final-i"] a button {
-    width: 100%;
+    width: 345px;
     
   }
 }
 
 @media (min-width: 430px) and (max-width: 900px) {
   main div[id="final"] div[id="final-i"] button {
-    width: 35%;
+    width: 345px;
   }
 }
 
